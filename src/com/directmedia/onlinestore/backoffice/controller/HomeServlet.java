@@ -41,6 +41,7 @@ public class HomeServlet extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
         out.println("<h1>OnlineStore – Gestion de la boutique </h1>");
+        out.println("<a  href=\"catalogue\"> Acces au catalogue</a>");
         out.println("</body>");
         out.println("</html>");
 	}
